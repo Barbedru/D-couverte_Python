@@ -20,9 +20,9 @@ def comparer(choix_joueur : str, choix_ordi : str) -> str:
     if choix_joueur == choix_ordi:
         return "Égalité"
     if (
-        (choix_joueur == "pierre" and choix_ordi == "ciseaux")
-        or (choix_joueur == "feuille" and choix_ordi == "pierre")
-        or (choix_joueur == "ciseaux" and choix_ordi == "feuille")
+    (choix_joueur == "pierre" and choix_ordi == "ciseaux")
+     or (choix_joueur == "feuille" and choix_ordi == "pierre")
+     or (choix_joueur == "ciseaux" and choix_ordi == "feuille")
     ):
         return "Gagné"
     else:
