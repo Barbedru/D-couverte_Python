@@ -1,13 +1,13 @@
 
 
 class SimpleCode:
-    def add(a: int, b: int) -> int:
+    def add(self, a: int, b: int) -> int:
         return a + b
 
 
-    def sub(a: int, b: int) -> int:
+    def sub(self, a: int, b: int) -> int:
         return a - b
 
 
-    def mult(a: int, b: int) -> int:
+    def mult(self, a: int, b: int) -> int:
         return a * b
